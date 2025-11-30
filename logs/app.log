@@ -1,0 +1,312 @@
+2025-11-27 17:02:14,317 - config.logging_config - INFO - [setup_db.py:17] - Starting database initialization...
+2025-11-27 17:02:14,394 - config.logging_config - INFO - [setup_db.py:29] - Created tables: agent_logs, calendar_events, emails, notes, productivity_metrics, tasks, users
+2025-11-27 17:02:20,622 - config.logging_config - INFO - [setup_db.py:41] - Seeding sample data...
+2025-11-27 17:02:20,675 - config.logging_config - INFO - [setup_db.py:83] -   Created task: Complete project documentation
+2025-11-27 17:02:20,690 - config.logging_config - INFO - [setup_db.py:83] -   Created task: Review code changes
+2025-11-27 17:02:20,700 - config.logging_config - INFO - [setup_db.py:83] -   Created task: Update dependencies
+2025-11-27 17:12:32,853 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-27 17:12:32,860 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-27 17:12:32,872 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-27 17:12:32,886 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-27 17:12:32,892 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-27 17:30:25,041 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-27 17:30:25,042 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-27 17:30:25,045 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-27 17:30:25,046 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-27 17:30:25,048 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-27 17:42:00,058 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-27 17:42:00,059 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-27 17:42:00,060 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-27 17:42:00,060 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-27 17:42:00,062 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-27 17:56:57,909 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-27 17:56:57,912 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-27 17:56:57,915 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-27 17:56:57,917 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-27 17:56:57,918 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-27 17:57:04,389 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-27 17:57:04,404 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-27 17:57:04,406 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-27 17:57:04,408 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-27 17:57:04,411 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-27 17:58:09,608 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-27 17:58:09,609 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-27 17:58:09,610 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-27 17:58:09,611 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-27 17:58:09,613 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-29 23:38:28,125 - config.logging_config - INFO - [setup_db.py:17] - Starting database initialization...
+2025-11-29 23:38:28,149 - config.logging_config - INFO - [setup_db.py:29] - Created tables: agent_logs, calendar_events, emails, notes, productivity_metrics, tasks, users
+2025-11-29 23:38:38,210 - config.logging_config - INFO - [setup_db.py:41] - Seeding sample data...
+2025-11-29 23:38:38,230 - config.logging_config - ERROR - [memory_bank.py:38] - Error creating user: (sqlite3.IntegrityError) UNIQUE constraint failed: users.email
+[SQL: INSERT INTO users (user_id, name, email, timezone, work_hours_start, work_hours_end, preferences, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('466794e7-9e91-4a3e-a091-a5d87a229094', 'Test User', 'test@example.com', 'UTC', '09:00', '17:00', '{"theme": "light", "notifications": true}', '2025-11-29 18:08:38.230493', '2025-11-29 18:08:38.230493')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-11-29 23:41:59,206 - config.logging_config - INFO - [setup_db.py:17] - Starting database initialization...
+2025-11-29 23:41:59,211 - config.logging_config - INFO - [setup_db.py:22] - Database tables created successfully!
+2025-11-29 23:41:59,212 - config.logging_config - INFO - [setup_db.py:29] - Created tables: agent_logs, calendar_events, emails, notes, productivity_metrics, tasks, users
+2025-11-29 23:42:03,414 - config.logging_config - INFO - [setup_db.py:41] - Seeding sample data...
+2025-11-29 23:42:03,444 - config.logging_config - INFO - [setup_db.py:47] - Using existing test user: 0707c6a1-fa67-407e-98d3-4b53af180d72
+2025-11-29 23:42:03,465 - config.logging_config - INFO - [setup_db.py:87] -   Created task: Complete project documentation
+2025-11-29 23:42:03,478 - config.logging_config - INFO - [setup_db.py:87] -   Created task: Review code changes
+2025-11-29 23:42:03,494 - config.logging_config - INFO - [setup_db.py:87] -   Created task: Update dependencies
+2025-11-29 23:42:03,495 - config.logging_config - INFO - [setup_db.py:89] - Created 3 sample tasks
+2025-11-29 23:44:07,139 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-29 23:44:07,142 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-29 23:44:07,144 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-29 23:44:07,149 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-29 23:44:07,153 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-29 23:47:36,112 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-29 23:47:36,114 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-29 23:47:36,115 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-29 23:47:36,117 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-29 23:47:36,121 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-29 23:50:46,431 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-29 23:50:46,433 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-29 23:50:46,434 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-29 23:50:46,436 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-29 23:50:46,437 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:20:01,002 - config.logging_config - INFO - [setup_db.py:17] - Starting database initialization...
+2025-11-30 18:20:01,022 - config.logging_config - INFO - [setup_db.py:22] - Database tables created successfully!
+2025-11-30 18:20:01,041 - config.logging_config - INFO - [setup_db.py:29] - Created tables: agent_logs, calendar_events, emails, notes, productivity_metrics, tasks, users
+2025-11-30 18:20:11,527 - config.logging_config - INFO - [setup_db.py:41] - Seeding sample data...
+2025-11-30 18:20:11,609 - config.logging_config - INFO - [setup_db.py:47] - Using existing test user: 0707c6a1-fa67-407e-98d3-4b53af180d72
+2025-11-30 18:20:11,651 - config.logging_config - INFO - [setup_db.py:87] -   Created task: Complete project documentation
+2025-11-30 18:20:11,673 - config.logging_config - INFO - [setup_db.py:87] -   Created task: Review code changes
+2025-11-30 18:20:11,693 - config.logging_config - INFO - [setup_db.py:87] -   Created task: Update dependencies
+2025-11-30 18:20:11,693 - config.logging_config - INFO - [setup_db.py:89] - Created 3 sample tasks
+2025-11-30 18:21:35,081 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:21:35,081 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:21:35,083 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:21:35,083 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:21:35,084 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:21:35,084 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:21:35,085 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:21:35,085 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:21:35,090 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:21:35,090 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:23:51,874 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:23:51,887 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:23:51,903 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:23:51,929 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:23:51,935 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:23:51,949 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:23:51,984 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:23:51,999 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:23:52,008 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:23:52,017 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:24:43,648 - config.logging_config - ERROR - [memory_bank.py:75] - Error creating task: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO tasks (task_id, user_id, title, description, priority, status, due_date, tags, estimated_duration, created_at, updated_at, completed_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'title': 'walking', 'tags': [], 'user_id': '257903d4-1131-465e-ab1f-9a2a661d510b', 'priority': 'medium', 'due_date': '2025-11-30', 'description': '', 'estimated_duration': None, 'completed_at': None}]]
+2025-11-30 18:24:43,649 - config.logging_config - ERROR - [main.py:184] - Error creating task: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO tasks (task_id, user_id, title, description, priority, status, due_date, tags, estimated_duration, created_at, updated_at, completed_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'title': 'walking', 'tags': [], 'user_id': '257903d4-1131-465e-ab1f-9a2a661d510b', 'priority': 'medium', 'due_date': '2025-11-30', 'description': '', 'estimated_duration': None, 'completed_at': None}]]
+2025-11-30 18:30:56,815 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:30:56,815 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:30:56,817 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:30:56,817 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:30:56,819 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:30:56,819 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:30:56,820 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:30:56,820 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:30:56,821 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:30:56,821 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:34:51,492 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:34:51,492 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:34:51,493 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:34:51,494 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:34:51,501 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:34:51,509 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:34:51,511 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:34:51,520 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:34:51,526 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:34:51,535 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:35:12,771 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:35:12,771 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:35:12,776 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:35:12,777 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:35:12,779 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:35:12,779 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:35:12,780 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:35:12,780 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:35:12,788 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:35:12,792 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:36:16,480 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:36:16,481 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:36:16,484 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:36:16,484 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:36:16,486 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:36:16,486 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:36:16,489 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:36:16,490 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:36:16,494 - config.logging_config - ERROR - [base_agent.py:34] - Error initializing model: 'Settings' object has no attribute 'google_api_key'
+2025-11-30 18:36:16,496 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:37:26,751 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:37:26,756 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:37:26,761 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:37:26,764 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:37:26,770 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:37:43,610 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:37:43,614 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:37:43,619 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:37:43,635 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:37:43,648 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:37:52,245 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:37:52,251 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:37:52,256 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:37:52,266 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:37:52,286 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:38:21,813 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:38:21,814 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:38:21,816 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:38:21,817 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:38:21,817 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:39:25,465 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:39:25,467 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:39:25,474 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:39:25,480 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:39:25,483 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:39:30,755 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:39:30,759 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:39:30,762 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:39:30,765 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:39:30,768 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:50:08,798 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:50:08,800 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:50:08,802 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:50:08,803 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:50:08,808 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:52:03,343 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:52:03,346 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:52:03,348 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:52:03,358 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:52:03,369 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:52:07,283 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:52:07,287 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:52:07,287 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:52:07,288 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:52:07,289 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:53:26,882 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:53:26,885 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:53:26,889 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:53:26,893 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:53:26,896 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:55:07,718 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:55:07,732 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:55:07,748 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:55:07,771 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:55:07,792 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:55:24,894 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:55:24,945 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:55:24,991 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:55:25,043 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:55:25,076 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:55:37,795 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:55:37,797 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:55:37,799 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:55:37,801 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:55:37,804 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:55:51,727 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:55:51,731 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:55:51,733 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:55:51,735 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:55:51,744 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:57:49,862 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:57:49,875 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:57:49,891 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:57:49,896 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:57:49,911 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:57:55,327 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:57:55,328 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:57:55,336 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:57:55,341 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:57:55,345 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:57:58,994 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:57:58,996 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:57:58,997 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:57:58,999 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:57:59,000 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 18:58:08,657 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 18:58:08,661 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 18:58:08,663 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 18:58:08,664 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 18:58:08,666 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:00:14,846 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:00:14,863 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:00:14,865 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:00:14,877 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:00:14,894 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:00:19,255 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:00:19,257 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:00:19,258 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:00:19,260 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:00:19,262 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:05:41,600 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:05:41,603 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:05:41,607 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:05:41,609 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:05:41,614 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:07:34,699 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:07:34,709 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:07:34,712 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:07:34,715 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:07:34,717 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:08:34,639 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:08:34,641 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:08:34,643 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:08:34,644 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:08:34,646 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:11:23,244 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:11:23,245 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:11:23,248 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:11:23,249 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:11:23,252 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:12:21,380 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:12:21,385 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:12:21,402 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:12:21,414 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:12:21,416 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:12:34,465 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:12:34,468 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:12:34,469 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:12:34,471 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:12:34,482 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:12:37,506 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:12:37,507 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:12:37,508 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:12:37,509 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:12:37,510 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:13:09,401 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:13:09,402 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:13:09,404 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:13:09,406 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:13:09,408 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:16:42,396 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:16:42,402 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:16:42,406 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:16:42,411 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:16:42,418 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:21:35,015 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:21:35,023 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:21:35,030 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:21:35,037 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:21:35,062 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:27:27,555 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:27:27,559 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:27:27,562 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:27:27,565 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:27:27,567 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:27:39,244 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:27:39,245 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:27:39,246 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:27:39,247 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:27:39,249 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:27:44,927 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:27:44,929 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:27:44,930 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:27:44,931 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:27:44,932 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
+2025-11-30 19:31:31,966 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: TaskManager
+2025-11-30 19:31:31,970 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: CalendarAgent
+2025-11-30 19:31:31,972 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: EmailAgent
+2025-11-30 19:31:31,976 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: NoteAgent
+2025-11-30 19:31:31,978 - config.logging_config - INFO - [base_agent.py:19] - Initialized agent: AnalyticsAgent
